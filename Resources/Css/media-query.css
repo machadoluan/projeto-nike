@@ -1,0 +1,106 @@
+@media screen and (max-width: 1200px) {
+    header .secound_main nav {
+        display: none;
+    }
+
+    .mobile-menu div {
+        display: block;
+    }
+
+    footer {
+        padding: 10px 40px;
+    }
+
+    footer .footer-top-container {
+        flex-direction: column;
+    }
+
+    footer .footer-top-container .container-two {
+        text-align: end;
+        border-bottom: 2px solid white;
+        margin: 1.5rem 0;
+        padding-bottom: 15px;
+    }
+
+    footer .footer-top-container i{
+        display: block;
+        font-size: 16px;
+        color: white;
+    }
+
+    footer .footer-top-container .container-two li, h2{
+        display: none;
+    }
+
+    footer .footer-top-container .container-three {
+        text-align: end;
+        border-bottom: 2px solid white;  
+        padding-bottom: 15px;
+    }
+
+    footer .footer-top-container .container-three li{
+        display: none; 
+    }
+
+    footer .footer-bottom-container {
+        padding-top: 1.5rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    footer .footer-top-container h2, h1{
+        color: var(--white-grey-color);
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+
+    footer .footer-bottom-container .texts1 {
+        justify-content: center;
+    }
+
+    footer .footer-bottom-container .texts2 p {
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        color: #cacaca;
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    header .secound_main .search input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .secound_main img {
+        display: none;
+    }
+
+    header .first nav ul {
+        display: none;
+    }
+
+    .mobile-menu {
+        margin: 0;
+        padding: 0;
+    }
+
+    main .release1 .options {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    main .release2 .options {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
